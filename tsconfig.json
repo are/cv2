@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "jsx": "react",
+        "jsxFactory": "jsx",
+        "baseUrl": ".",
+        "paths": {
+            "components/*": ["src/components/*"],
+            "hooks/*": ["src/hooks/*"]
+        },
+        "typeRoots": ["./node_modules/@types", "./typings"]
+    }
+}
