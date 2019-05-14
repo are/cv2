@@ -14,4 +14,4 @@ Then open `localhost:1234`.
 
 ## Getting the PDF file
 
-Just use buildin browser Print to PDF functionality. Don't forget to configure margins and other settings!
+Just use builtin browser Print to PDF functionality. Don't forget to configure margins and other settings!
