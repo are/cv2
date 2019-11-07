@@ -22,7 +22,7 @@ export const ContactSection = () => {
                     </Label>
                 </div>
                 <div css={rightColumnStyles}>
-                    <Label icon="home">{get`personalData/address`}</Label>
+                    <Label icon="home">{get`personalData/city`}</Label>
                     <Label icon="link">
                         <Link url={`https://${get`personalData/websiteLink`}`}>{get`personalData/websiteLink`}</Link>
                     </Label>

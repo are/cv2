@@ -1,18 +1,22 @@
+import * as dotenv from 'dotenv'
+
+dotenv.config()
+
 export const data = {
     personalData: {
         phoneNumber: process.env.PHONE,
         address: process.env.ADDRESS,
         city: 'Katowice, Poland',
         email: 'me@iama.re',
-        websiteLink: 'iama.re',
-        githubLink: 'github.com/are1000',
+        websiteLink: 'about.are1000.dev',
+        githubLink: 'github.com/are',
         linkedinLink: 'linkedin.com/in/are1000',
     },
     skills: [
         ['JavaScript (ES2019)', 'TypeScript', 'Node.js', 'HTML5', 'CSS3 (Flexbox, Grid)'],
-        ['React (16.8.x)', 'Redux', 'RxJS', 'Ramda', 'karma', 'Jest', 'TDD'],
-        ['Express', 'Koa', 'MongoDB', 'mongoose', 'Socket.io', 'Sass'],
-        ['git', 'npm', 'yarn', 'GNU/Linux', 'Ubuntu', 'Arch Linux', 'Windows 10'],
+        ['React', 'RxJS', 'effector', 'Ramda', 'karma', 'Jest', 'TDD'],
+        ['Express', 'Koa', 'MongoDB', 'RethinkDB', 'Socket.io', 'oclif'],
+        ['git', 'npm', 'yarn', 'GNU/Linux', 'Ubuntu', 'Windows 10'],
         ['webpack', 'parcel', 'babel', 'prettier', 'standard', 'eslint'],
     ],
     wants: ['vue', 'elm', 'CSS Houdini', 'wasm', 'python', 'rust'],
@@ -28,6 +32,16 @@ export const data = {
         },
     ],
     experience: [
+        {
+            name: 'Auto1',
+            position: 'Senior Software Developer',
+            url: 'https://auto1.com',
+            date: 'June 2019 - now',
+            skills: ['React', 'TypeScript', 'flow', 'node.js', 'AWS', 'effector', 'lerna'],
+            description: `Worked on many different projects, including front-end, UX and back-end.
+                (multiple systems with tens of thousands of visits daily). Developed internal tools
+                and libraries for other developers to use.`,
+        },
         {
             name: 'Indio',
             position: 'JavaScript Developer',
@@ -78,13 +92,14 @@ export const data = {
         `My interests include music (I play drums), audiovisual arts, amateur embedded systems (like Raspberry Pi or Arduino), programming
             language design, functional programming, category theory, and type systems.`,
         `I try to stay up to date with rapidly expanding JavaScript universe through dev communities, podcasts and open-source.
-            Currently, I am interested in learning vue.js, rust lang, wasm related technologies and newest CSS Houdini features.`,
+            Currently, I am interested in learning Rust and start using Elm in production.`,
         `One of my strongest suits is the ability to focus on a task to solve it efficiently using readable and elegant code.
-            I feel most productive when working with diverse teams. I'm always looking for opportunities to improve myself.`,
+            I have a lot of experience working with international teams and I feel most productive when working with diverse teams.
+            I'm always looking for opportunities to improve myself.`,
     ],
     footer: `I hereby give consent for my personal data included in my application to be processed for the purposes
         of the recruitment process under the Regulation (EU) 2016/679 of the European Parliament and of the
         Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal
         data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection
-        Regulation).`
+        Regulation).`,
 }
