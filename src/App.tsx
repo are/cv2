@@ -10,7 +10,7 @@ import { SkillsSection } from './sections/Skills/Skills'
 import { ExperienceSection } from './sections/Experience/Experience'
 import { EducationSection } from './sections/Education/Education'
 import { AboutSection } from './sections/About/About'
-import { FooterSection } from './sections/Footer/Footer';
+import { FooterSection } from './sections/Footer/Footer'
 
 export const App = () => {
     return (

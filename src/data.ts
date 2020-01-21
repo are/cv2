@@ -33,10 +33,19 @@ export const data = {
     ],
     experience: [
         {
+            name: 'PubNub',
+            position: 'SDK Engineer',
+            url: 'https://pubnub.com',
+            date: 'January 2020 - now',
+            skills: ['React', 'Dart', 'TypeScript'],
+            description: `Just begun working on JavaScript and Dart SDK,
+                contributed to React PubNub framework.`,
+        },
+        {
             name: 'Auto1',
             position: 'Senior Software Developer',
             url: 'https://auto1.com',
-            date: 'June 2019 - now',
+            date: 'June 2019 - December 2019',
             skills: ['React', 'TypeScript', 'flow', 'node.js', 'AWS', 'effector', 'lerna'],
             description: `Worked on many different projects, including front-end, UX and back-end.
                 (multiple systems with tens of thousands of visits daily). Developed internal tools
@@ -61,30 +70,14 @@ export const data = {
                 track assets using BLE technology.`,
         },
         {
-            name: 'Kambu',
-            position: 'Front-end Developer',
-            url: 'https://www.kambu.pl',
-            date: '2017',
-            skills: ['React', 'Redux'],
-            description: `Ported CMS based website from PHP to React.`,
-        },
-        {
-            name: 'Railwaymen',
-            position: 'Back-end Developer',
-            url: 'https://railwaymen.org/',
-            date: '2016',
-            skills: ['Node.js', 'Braintree', 'Amazon AWS'],
-            description: `Created a service that allowed resumable downloads.
-                Integrated Braintree platform into an existing application.`,
-        },
-        {
-            name: 'Fingoweb',
-            position: 'JavaScript Developer',
-            url: 'https://www.fingoweb.com',
-            date: '2015',
-            skills: ['Node.js', 'React', 'Flummox', 'RethinkDB'],
-            description: `Developed an application that handled PSD files to simplify
-                communication between clients, designers and programmers.`,
+            name: 'Fingoweb, Railwaymen, Kambu',
+            position: 'Various Internships',
+            date: '2015 - 2017',
+            skills: ['Node.js', 'Braintree', 'AWS', 'React', 'Redux', 'RethinkDB'],
+            description: `Developed an application handling PSD files.
+                Ported CMS based website from PHP to React.
+                Created a resumable download service. Integrated Braintree platform
+                into an existing application.`,
         },
     ],
     about: [
